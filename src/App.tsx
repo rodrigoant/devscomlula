@@ -30,7 +30,7 @@ export function App() {
         position={position}
       />
 
-      <header className="border-b border-neutral-800/80 bg-[#09090b]/80 backdrop-blur-md sticky top-0 z-30">
+      <header className="border-b border-neutral-800/80 bg-[#09090b]/80 backdrop-blur-md">
         <div className="mx-auto flex h-14 max-w-[692px] items-center justify-between px-4 sm:px-6">
           <div className="flex items-center gap-2">
             <svg width="18" height="18" viewBox="0 0 26 26" fill="none">
