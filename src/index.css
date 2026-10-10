@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'rawline';
+  src: url('/fonts/rawline/rawline-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'rawline';
+  src: url('/fonts/rawline/rawline-500.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'rawline';
+  src: url('/fonts/rawline/rawline-600.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'rawline';
+  src: url('/fonts/rawline/rawline-700.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'rawline';
+  src: url('/fonts/rawline/rawline-800.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'rawline';
+  src: url('/fonts/rawline/rawline-900.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-rawline: 'rawline', sans-serif;
+  --font-impact: 'Anton', 'Montserrat', sans-serif;
+  --font-headline: 'Montserrat', sans-serif;
+}

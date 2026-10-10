@@ -1,0 +1,39 @@
+{
+  "name": "devscomlula-workspace",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "http://lula.rodrigoantunes.dev/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodrigoant/devscomlula"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:pkg": "npm --workspace=packages/devscomlula run build",
+    "build:all": "npm run build:pkg && npm run build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "lucide-react": "^1.55.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "tsup": "^8.5.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}
