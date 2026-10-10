@@ -10,7 +10,10 @@
     "noEmit": true,
     "strict": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "paths": {
+      "devscomlula": ["./packages/devscomlula/src/index.ts"]
+    }
   },
-  "include": ["src", "vite.config.ts"]
+  "include": ["src", "vite.config.ts", "packages/devscomlula/src"]
 }

@@ -90,7 +90,10 @@ export const DevsComLula: React.FC<DevsComLulaProps> = ({
         }}
         aria-label="Campanha #devscomlula"
       >
-        <style>{`@media (max-width: 640px) { .devscomlula-dash { display: none !important; } }`}</style>
+        <style>{`
+          .devscomlula-dash { display: inline !important; }
+          @media (max-width: 640px) { .devscomlula-dash { display: none !important; } }
+        `}</style>
         <Tag
           {...tagProps}
           style={{
@@ -109,10 +112,10 @@ export const DevsComLula: React.FC<DevsComLulaProps> = ({
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
             <StarIcon size={20} />
-            <span style={{ fontWeight: 800, letterSpacing: '-0.02em' }}>#devscomlula</span>
+            <span style={{ fontWeight: 600, letterSpacing: '0.06em' }}>#devscomlula</span>
           </div>
 
-          <span className="devscomlula-dash hidden sm:inline" style={{ opacity: 0.75 }}>
+          <span className="devscomlula-dash" style={{ opacity: 0.75 }}>
             —
           </span>
 
@@ -192,9 +195,9 @@ export const DevsComLula: React.FC<DevsComLulaProps> = ({
             justifyContent: 'center',
             gap: '0.375rem',
             fontSize: '1rem',
-            fontWeight: 800,
+            fontWeight: 600,
             lineHeight: 1.1,
-            letterSpacing: '-0.02em',
+            letterSpacing: '0.08em',
           }}
         >
           <StarIcon size={16} />

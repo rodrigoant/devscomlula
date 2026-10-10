@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Analytics } from '@vercel/analytics/react';
-import { DevsComLula, type DevsPosition } from './components/DevsComLula';
+import { DevsComLula, type DevsPosition } from 'devscomlula';
 import { CodeBlock } from './components/CodeBlock';
 import { Check, Copy } from 'lucide-react';
 
