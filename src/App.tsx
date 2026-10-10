@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { DevsComLula, type DevsPosition } from './components/DevsComLula';
 import { CodeBlock } from './components/CodeBlock';
 import { Check, Copy } from 'lucide-react';
@@ -258,6 +259,7 @@ export default function RootLayout({
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
