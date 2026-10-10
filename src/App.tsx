@@ -43,14 +43,23 @@ export function App() {
           </div>
 
           <div className="flex items-center gap-4 text-xs font-medium text-neutral-400">
-            <a
+                        <a
               href="https://github.com/rodrigoant/devscomlula"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white"
             >
-              GitHub
+              github
             </a>
+            <a
+              href="https://www.npmjs.com/package/devscomlula"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
+              npm
+            </a>
+
           </div>
         </div>
       </header>
