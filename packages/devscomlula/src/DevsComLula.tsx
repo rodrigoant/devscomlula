@@ -90,6 +90,7 @@ export const DevsComLula: React.FC<DevsComLulaProps> = ({
         }}
         aria-label="Campanha #devscomlula"
       >
+        <style>{`@media (max-width: 640px) { .devscomlula-dash { display: none !important; } }`}</style>
         <Tag
           {...tagProps}
           style={{
@@ -111,9 +112,11 @@ export const DevsComLula: React.FC<DevsComLulaProps> = ({
             <span style={{ fontWeight: 800, letterSpacing: '-0.02em' }}>#devscomlula</span>
           </div>
 
-          <span style={{ opacity: 0.75 }}>—</span>
+          <span className="devscomlula-dash hidden sm:inline" style={{ opacity: 0.75 }}>
+            —
+          </span>
 
-          <span style={{ opacity: 0.95 }}>
+          <span style={{ opacity: 0.95, textWrap: 'balance' }}>
             Tecnologia a serviço da classe trabalhadora e da democracia.
           </span>
         </Tag>
