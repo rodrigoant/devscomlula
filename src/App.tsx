@@ -28,7 +28,6 @@ export function App() {
     <div className="min-h-screen bg-[#09090b] text-[#ededed] antialiased selection:bg-[#bc1313] selection:text-white">
       <DevsComLula
         position={position}
-        link="http://lula.rodrigoantunes.dev/"
       />
 
       <header className="border-b border-neutral-800/80 bg-[#09090b]/80 backdrop-blur-md sticky top-0 z-30">
